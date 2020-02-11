@@ -15,7 +15,7 @@ namespace tarot.Models
                 for(int j = 0; j < 4; j++)
                 {
                     Card card = new Card();
-                    card.Face = (Face)i;
+                    card.FaceMinor = (FaceMinor)i;
                     card.Minor = (Minor)j;
                     Cards.Add(card);
                 }
@@ -26,7 +26,7 @@ namespace tarot.Models
                 for (int l = 0; l < 1; j++)
                 {
                     Card card = new Card();
-                    card.Face = (Face)k;
+                    card.FaceMajor = (FaceMajor)k;
                     card.Major = (Major)l;
                 }
             }
