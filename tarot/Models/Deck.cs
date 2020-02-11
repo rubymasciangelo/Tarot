@@ -50,8 +50,8 @@ namespace tarot.Models
             }
             foreach(Card card in Cards)
             {
-                var random = new Random();
-                var reverse = random.Next(2) == 1;
+                var reverse = new Random();
+                var isReverse = reverse.Next(2) == 1; // 0 = false 1 = true
             }
         }
     }
