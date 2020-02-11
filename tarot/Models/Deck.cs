@@ -10,7 +10,7 @@ namespace tarot.Models
         {
             Cards = new List<Card>();
 
-            for(int i = 0; i < 14; i++)
+            for(int i = 0; i < 14; i++)// for minor arcana
             {
                 for(int j = 0; j < 4; j++)
                 {
@@ -21,7 +21,7 @@ namespace tarot.Models
                 }
             }
 
-            for(int k = 0; k <22; k++)
+            for(int k = 0; k <22; k++)// for major arcana
             {
                 for (int l = 0; l < 1; j++)
                 {
@@ -33,7 +33,7 @@ namespace tarot.Models
         }
         public List<Card> Cards { get; set; }
 
-        public void Shuffle(int times = 1)
+        public void Shuffle(int times = 1)// should this go in controller?
         {
             for (int i = 0; i < times; i++)
             {
@@ -51,7 +51,7 @@ namespace tarot.Models
             foreach(Card card in Cards)
             {
                 var reverse = new Random();
-                var isReverse = reverse.Next(2) == 1; // 0 = false 1 = true
+                var isReverse = reverse.Next(2) == 1;// 0 = false 1 = true
             }
         }
     }
