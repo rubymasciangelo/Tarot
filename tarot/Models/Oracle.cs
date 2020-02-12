@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 namespace tarot.Models
 {
@@ -10,7 +11,7 @@ namespace tarot.Models
 
         public void Deal(List<Card> Hand)
         {
-            Hand.Add(Deck.Cards)
+            Hand.Add(Deck.Cards);
         }
     }
 }
