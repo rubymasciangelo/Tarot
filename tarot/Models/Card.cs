@@ -13,7 +13,9 @@ namespace tarot.Models
 
         public override string ToString()
         {
-            return string.Format("{0} of {1}", FaceMinor, Minor ^ FaceMajor, Major);
+            return string.Format("{0} of {1}", FaceMinor, Minor);
+
+            return string.Format("{0}: {1}", FaceMajor, Major);
 
             if(isReverse = "true")
             {
@@ -45,6 +47,32 @@ namespace tarot.Models
             VIII,
             IX,
             X
+        }
+
+        public enum Major
+        {
+            Fool,
+            Magician,
+            Priestess,
+            Empress,
+            Emperor,
+            Hierophant,
+            Lovers,
+            Chariot,
+            Justice,
+            Hermit,
+            Wheel,
+            Strength,
+            Gallows,
+            Death,
+            Temperance,
+            Devil,
+            Tower,
+            Star,
+            Moon,
+            Sun,
+            Judgment,
+            World
         }
     }
 
