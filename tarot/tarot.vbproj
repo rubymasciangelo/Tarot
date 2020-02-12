@@ -207,6 +207,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Models\Oracle.cs" />
     <Content Include="Models\Subject.cs" />
+    <Content Include="Models\TarotOracle.cs" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
