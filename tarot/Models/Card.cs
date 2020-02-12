@@ -28,6 +28,24 @@ namespace tarot.Models
             Swords,
             Wands
         }
+
+        public enum FaceMinor
+        {
+            Page,
+            Knight,
+            Queen,
+            King,
+            Ace,
+            II,
+            III,
+            IV,
+            V,
+            VI,
+            VII,
+            VIII,
+            IX,
+            X
+        }
     }
 
 }
