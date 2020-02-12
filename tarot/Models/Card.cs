@@ -20,6 +20,14 @@ namespace tarot.Models
                 return " in reverse";
             }
         }
+
+        public enum Minor
+        {
+            Cups,
+            Charms,
+            Swords,
+            Wands
+        }
     }
 
 }
