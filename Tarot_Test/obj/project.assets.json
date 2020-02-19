@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot_Test\\Tarot_Test.csproj",
+      "projectUniqueName": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot\\Tarot_Test\\Tarot_Test.csproj",
       "projectName": "Tarot_Test",
-      "projectPath": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot_Test\\Tarot_Test.csproj",
+      "projectPath": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot\\Tarot_Test\\Tarot_Test.csproj",
       "packagesPath": "C:\\Users\\sales\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot_Test\\obj\\",
+      "outputPath": "C:\\Users\\sales\\Desktop\\Tarot\\Tarot\\Tarot_Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sales\\AppData\\Roaming\\NuGet\\NuGet.Config",
