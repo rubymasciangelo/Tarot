@@ -1,0 +1,3 @@
+C:\Users\sales\Desktop\Tarot\Tarot\Tarot_Test\obj\Debug\netcoreapp3.1\Tarot_Test.csprojAssemblyReference.cache
+C:\Users\sales\Desktop\Tarot\Tarot\Tarot_Test\obj\Debug\netcoreapp3.1\Tarot_Test.AssemblyInfoInputs.cache
+C:\Users\sales\Desktop\Tarot\Tarot\Tarot_Test\obj\Debug\netcoreapp3.1\Tarot_Test.AssemblyInfo.cs

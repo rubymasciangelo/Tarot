@@ -6,7 +6,7 @@ namespace Tarot_Test
 {
     public class Deck
     {
-        Public Deck()
+        public Deck()
         {
             Cards = new List<Card>();
 
